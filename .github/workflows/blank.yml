@@ -38,7 +38,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Your site's files are at the root of the repo
-          path: '.' 
+          path: 'templates' 
 
       # Step 4: Deploy the uploaded artifact to the live URL
       - name: Deploy to GitHub Pages
